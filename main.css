@@ -3,5 +3,32 @@ div{
 }
 
 #MenuHaut{
-    width: 100%;
+    width: 20%;
+    background-color: aqua;
+}
+
+#foot{
+    width: 50%;
+    background-color:blueviolet;
+}
+
+#MenuCentre{
+    width: 50%;
+}
+
+
+.DivLongue{
+    width: 50%;
+}
+
+#SousMenuA{
+    background-color: brown;
+}
+
+#SousMenuB{
+    background-color: yellow;
+}
+
+#footer{
+    width: 50%;
 }
