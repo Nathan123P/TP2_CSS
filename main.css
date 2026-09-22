@@ -1,33 +1,54 @@
+#titre{
+    text-align: center;
+}
+
+
 div{
-    background-color: blue;
+    width: 60%;
+    float: left;
 }
 
 #MenuHaut{
-    width: 20%;
+    width: 15%;
     background-color: aqua;
+    height: 40px;
+    display: grid;
+    place-items: center;
+
 }
 
 #foot{
-    width: 50%;
-    background-color:blueviolet;
+
 }
 
 #MenuCentre{
-    width: 50%;
+    width: 100%;
 }
 
 
 .DivLongue{
-    width: 50%;
+    width: 100%;
 }
 
 #SousMenuA{
-    background-color: brown;
+    background-color: yellow;
+    width: 15%;
+    height: 200px;
+    float: left;
+    display: grid;
+    place-items: center;
 }
 
 #SousMenuB{
-    background-color: yellow;
+    background-color: green;
+    width: 15%;
+    height: 30px;
+    float: left;
+    display: grid;
+    place-items: center;
 }
 #footer{
-    width: 50%;
+    width: 100%;
 }
+
+
