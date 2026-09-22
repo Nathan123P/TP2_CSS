@@ -32,7 +32,7 @@ div{
 
 #SousMenuA{
     background-color: yellow;
-    width: 15%;
+    width: 13%;
     height: 200px;
     float: left;
     display: grid;
@@ -47,8 +47,16 @@ div{
     display: grid;
     place-items: center;
 }
+#menu{
+    background-color:  rosybrown;
+    width: 2%;
+    height: 200px;
+    display: grid;
+    place-items: center;
+}
 #footer{
     width: 100%;
+
 }
 
 
