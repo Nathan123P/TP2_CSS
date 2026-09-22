@@ -5,7 +5,7 @@
 
 div{
     width: 100%;
-    float: left;
+
 }
 
 #MenuHaut{
@@ -34,7 +34,7 @@ div{
     background-color: yellow;
     width: 90%;
     height: 500px;
-    float: left;
+
     display: grid;
     place-items: center;
 }
@@ -43,14 +43,21 @@ div{
     background-color: green;
     width: 100%;
     height: 240px;
-    float: left;
+
     display: grid;
     place-items: center;
 }
-#menu{
+#menu1{
     background-color:  rosybrown;
     width: 10%;
-    height: 500px;
+    height: 250px;
+    display: grid;
+    place-items: center;
+}
+#menu2{
+    background-color:  orange;
+    width: 10%;
+    height: 250px;
     display: grid;
     place-items: center;
 }
