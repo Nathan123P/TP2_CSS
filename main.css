@@ -4,14 +4,14 @@
 
 
 div{
-    width: 60%;
+    width: 100%;
     float: left;
 }
 
 #MenuHaut{
-    width: 15%;
+    width: 100%;
     background-color: aqua;
-    height: 40px;
+    height: 240px;
     display: grid;
     place-items: center;
 
@@ -32,8 +32,8 @@ div{
 
 #SousMenuA{
     background-color: yellow;
-    width: 13%;
-    height: 200px;
+    width: 100%;
+    height: 500px;
     float: left;
     display: grid;
     place-items: center;
@@ -41,16 +41,16 @@ div{
 
 #SousMenuB{
     background-color: green;
-    width: 15%;
-    height: 30px;
+    width: 100%;
+    height: 240px;
     float: left;
     display: grid;
     place-items: center;
 }
 #menu{
     background-color:  rosybrown;
-    width: 2%;
-    height: 200px;
+    width: 10%;
+    height: 500px;
     display: grid;
     place-items: center;
 }
@@ -58,5 +58,4 @@ div{
     width: 100%;
 
 }
-
 
