@@ -1,14 +1,14 @@
-#titre{
+#titre {
     text-align: center;
 }
 
 
-div{
+div {
     width: 100%;
-
+    box-sizing: border-box;
 }
 
-#MenuHaut{
+#MenuHaut {
     width: 100%;
     background-color: aqua;
     height: 240px;
@@ -17,52 +17,85 @@ div{
 
 }
 
-#foot{
+#foot {}
 
-}
-
-#MenuCentre{
+#MenuCentre {
     width: 100%;
 }
 
 
-.DivLongue{
+.DivLongue {
     width: 100%;
 }
 
-#SousMenuA{
+.DivLongue:first-child {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 0;
+}
+
+#SousMenuA {
     background-color: yellow;
-    width: 90%;
+    width: 100%;
     height: 500px;
-
-    display: grid;
-    place-items: center;
+    display: block;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
 }
 
-#SousMenuB{
+.titre-contenu {
+    text-align: center;
+}
+
+.menuColonne {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+#SousMenuB {
     background-color: green;
     width: 100%;
     height: 240px;
+    display: grid;
+    place-items: center;
+}
 
-    display: grid;
-    place-items: center;
-}
-#menu1{
-    background-color:  rosybrown;
-    width: 10%;
+#menu1 {
+    background-color: rosybrown;
+    width: 100%;
     height: 250px;
     display: grid;
     place-items: center;
 }
-#menu2{
-    background-color:  orange;
-    width: 10%;
+
+#menu2 {
+    background-color: orange;
+    width: 100%;
     height: 250px;
     display: grid;
     place-items: center;
 }
-#footer{
+
+#footer {
     width: 100%;
 
 }
 
+#news {
+    background-color: red;
+    width: 120px;
+    height: 130px;
+    display: grid;
+    place-items: center;
+    float: right;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 0;
+    right: 0;
+}
